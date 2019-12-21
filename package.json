@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node ./chat-server.js",
-    "client": "node ./chat-client.js"
+    "client": "node ./chat-client.js",
+    "tool": "node ./tools/to-array.js"
   },
   "author": "Theodore",
   "license": "ISC",
