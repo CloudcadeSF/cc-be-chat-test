@@ -6,6 +6,7 @@ test：测试
 tools：工具脚本
 
 2.启动
+npm install
 npm run server
 npm run client
 
