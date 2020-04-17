@@ -1,0 +1,27 @@
+# 服务器侦听参数配置
+server:
+    host: localhost
+    port: 3000                # 默认端口
+
+# MySQL连接参数配置
+
+# 日志设置
+logger:
+    level: INFO              # 日志级别为 TRACE最详细 DEBUG INFO ERROR
+    isColorful: true          # 以彩色打印
+
+# redis设置
+redis:
+    host: 127.0.0.1
+    port: 6379
+    user:
+    password:
+
+# msg
+msg:
+    max_history: 100
+    show_len: 50
+    popular_second: 5
+
+#profanity
+profanity: 'utils/profanity.txt'
